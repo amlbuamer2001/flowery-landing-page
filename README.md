@@ -24,6 +24,9 @@ Fl🌸wery is a modern, responsive React landing page for a flower shop or flora
 
 **CSS Modules**
 
+## Screenshots
+  <img width="297" alt="logo" src="https://github.com/amlbuamer2001/flowery-landing-page/blob/master/screencapture.png" />
+
 
 ## Installation
 
