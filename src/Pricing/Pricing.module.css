@@ -1,0 +1,72 @@
+.section-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(24px, 5vw, 40px);
+  margin-bottom: 40px;
+  color: #4a035a;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.pricing-card {
+  background: #ffffffcc;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+}
+
+.popular {
+  border: 2px solid #ba81c7;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #ba81c7;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 36px;
+  color: #ba81c7;
+  margin: 20px 0;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.features-list li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.pattern-float {
+  animation: floatAndRotate 3s ease-in-out infinite;
+  -webkit-animation: floatAndRotate 3s ease-in-out infinite;
+}
+
+@keyframes floatAndRotate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}

@@ -1,0 +1,44 @@
+.customButton {
+  background-color: #f7d6e0;
+  color: #4a035a;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 40px;
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(234, 155, 188, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.customButton:hover {
+  background-color: #f3b8cd;
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(234, 155, 188, 0.5);
+  transform: translateY(-2px);
+}
+
+.customButton:active {
+  transform: scale(0.97);
+  box-shadow: 0 3px 8px rgba(234, 155, 188, 0.4);
+}
+
+.customButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.customButton:hover::after {
+  left: 100%;
+}

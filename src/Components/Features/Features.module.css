@@ -1,0 +1,121 @@
+.features-header {
+  font-family: "Playfair Display", serif;
+ font-size: clamp(24px, 5vw, 40px);
+ font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.pink-paint {
+  top: -150px;
+  left: -110px;
+  z-index: -11;
+}
+
+.product-item img {
+  border-radius: 50%;
+  position: relative;
+  width: 90%;
+}
+
+.product-item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.product-item::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #ba81c7;
+  width: 90%;
+  height: 98%;
+  border-radius: 50%;
+  left: 7px;
+  top: 6px;
+  pointer-events: none;
+}
+
+.product-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
+  );
+  transform: skewX(-20deg);
+  pointer-events: none;
+}
+
+.product-item:hover::after {
+  animation: shine 0.8s ease forwards;
+}
+
+.features-product-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 14px;
+}
+
+.service-badge {
+  position: absolute;
+  font-size: 14px;
+  top: 40px;
+  left: 5px;
+  border: 1px solid #4a035a;
+  border-radius: 20px;
+  padding: 2px 14px;
+  transition: all 0.3s ease;
+}
+
+.product-item:hover .service-badge {
+  background-color: #4a035a;
+  color: #fcf9ff;
+  border: 1px solid #ba81c7;
+  transform: scale(1.1);
+}
+
+.card-animate {
+  transition: all 0.3s;
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.card-animate:hover {
+  transform: translateY(-10px) scale(1.5);
+  transition: All 0.3s ease;
+  filter: drop-shadow(0 10px 10px rgba(186, 129, 199, 0.5));
+}
+
+/********************************* Animation  *********************************/
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+/********************************* Media Queries *********************************/
+@media only screen and (max-width: 500px) {
+  
+}
