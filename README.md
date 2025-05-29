@@ -1,12 +1,24 @@
-# React + Vite
+# Fl🌸wery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fl🌸wery is a modern, responsive React landing page for a flower shop or floral service. It features a beautiful hero section, product features, pricing plans, a contact form, and a stylish footer. The project leverages [React](https://react.dev/), [React Bootstrap](https://react-bootstrap.github.io/), and CSS Modules for modular, maintainable styling.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Hero Section:** Eye-catching introduction with call-to-action.
+- **Features Collection:** Highlights featured products with elegant cards.
+- **Pricing Plans:** Clear, attractive pricing cards for different plans.
+- **Contact Form:** Users can easily get in touch via a styled form.
+- **Footer:** Includes navigation, social links, and branding.
+- **Responsive Design:** Looks great on all devices.
+- **React Bootstrap:** For layout and UI components.
+- **CSS Modules:** Scoped, maintainable component styles.
 
-## Expanding the ESLint configuration
+## 🧩 Technologies Used
+**React (vite)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**React Bootstrap**
+
+**CSS Modules**
+
+
+
