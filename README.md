@@ -1,4 +1,8 @@
-# Fl🌸wery
+<p align="center">
+  <img width="297" alt="logo" src="https://github.com/amlbuamer2001/flowery-landing-page/blob/master/src/assets/icons/header-logo.svg" />
+  <br>
+  <em>Use the language of flowers to send your love</em>
+</p>
 
 Fl🌸wery is a modern, responsive React landing page for a flower shop or floral service. It features a beautiful hero section, product features, pricing plans, a contact form, and a stylish footer. The project leverages [React](https://react.dev/), [React Bootstrap](https://react-bootstrap.github.io/), and CSS Modules for modular, maintainable styling.
 
@@ -20,5 +24,18 @@ Fl🌸wery is a modern, responsive React landing page for a flower shop or flora
 
 **CSS Modules**
 
+
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/amlbuamer2001/flowery-landing-page.git
+   cd flowery-landing-page
+2. **Install dependencies:**
+   ```sh
+   npm Install
+3. **Start the development server:**
+   ```sh
+   npm run dev
 
 
